@@ -15,7 +15,7 @@ body {
     margin-left:auto;
     margin-right:auto;
     height: 760px;
-    width:1355px;
+    width:960px;
 }
 
 h1 {
@@ -47,7 +47,7 @@ h3 hr {
 }
 
 header {
-	width: 90%;
+	width: 100%;
 	height: 74px;
 	border: 1px solid #cccccc;
 	background-color: #ffffff;
@@ -115,7 +115,7 @@ aside {
 	text-align: center;
 	float: right;
 	margin-top: 50px;
-	margin-right: 238px;
+	margin-right: 0px;
 	width: 270px;
 	height: 200px;
 	background-color: #ffffff;
@@ -158,7 +158,20 @@ a img:hover {
 	
 }
 
+@media screen and  (max-width: 980px) {
 
+}
+
+
+@media screen {
+	max-width s: 768px;
+	
+}
+
+@media screen {
+	max-width s: 640px;
+	
+}
 
 
 
