@@ -1,79 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-	<title>Richard Dotchin Portfolio</title>
+	<meta charset="UTF-8">
+	<title>Portfolio | Your Name</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
-	<meta name="viewport" content="witdth=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body >
+<body>
 
-	<div id="wrapper">
-		
-		<header>
-			<!--name fixed to the upper left-->
-			<div id="name">
-				<h2>Richard Dotchin</h2>
-			</div>
-			<!--This is the menu bar in the upper right-->
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Richard Dotchin</a>
 			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>	
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
 			</nav>
-		</header>
-		
-		<!--portfolio including images with labels-->
-		<div id="portfolio">
+		</div>
+	</header>
+
+	<div id="main-container" class="container">
+		<section class="main-section">
 			<h1>Portfolio</h1>
 
-			<hr>
-			<div class="images">
-				<div id="hangman">
-					<img src="assets/images/image1.jpg" alt="image1">
-					<p class="label">Hangman</p>
-				</div>
-				<div id="rpg">
-					<img src="assets/images/image2.jpg" alt="image2">
-					<p class="label">RPG Game</p>
-				</div>
-				<div id="trivia">
-					<img src="assets/images/image3.jpg" alt="image3">
-					<p class="label">Trivia Game</p>
-				</div>
-				<div id="rutgers">
-					<img src="assets/images/image4.jpg" alt="image4">
-					<p class="label">Rutgers Info Widget</p>
-				</div>
-				<div  id="rps">
-					<img src="assets/images/image5.jpg" alt="image5">
-				<p class="label">Rock Papper Scissors</p>
-				</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+				<h3>Hangman</h3>
 			</div>
-		</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
 
+				<h3>RPG Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
 
+				<h3>Trivia Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
 
-		<!--social links on the right side of the page-->
-			<aside>
-				<h3>Connect with Me</h3>
+				<h3>Rutgers Info Widget</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
 
-				<hr>
-				<!--github logo-->
-				<a href="https://github.com/rdotchin" target="_blank"> <img src="assets/images/github.png" alt="github"> </a>
-				<!--linkedin logo-->
-				<a href="https://www.linkedin.com/in/richarddotchin" target="_blank"> <img src="assets/images/linkedin.png" alt="linkedin"> </a>
-				<!--stackoverflow logo-->
-				<a href="https://stackoverflow.com/users/6862094/rdotchin?tab=profile" target="_blank"> <img src="assets/images/stackoverflow.png" alt="stackoverflow"> </a>
-			</aside>
+				<h3>Rock Paper Scissors</h3>
+			</div>
 
-		<!--site footer-->	
-		<footer id="footer">
-			<p>&copy;Copyright 2016 Richard Dotchin</p>
-		</footer>
+		</section>
+
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+			</div>
+		</section>
 	</div>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Your Name
+		</div>
+	</footer>
 </body>
 </html>
