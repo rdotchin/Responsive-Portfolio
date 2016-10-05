@@ -307,9 +307,7 @@ input[type=submit] {
 
 
 
-@-ms-viewport {
-	width: device-width;
-}
+
 
 @media screen and (max-width: 640px) {
 	.container {
